@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: ##ffffff;
+  }
+  
+/* Header styles */
+header {
+    height: 140px;
+    background-color: #A83C39;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s ease; /* Add a transition effect for a smooth opacity change */
+  }
+  
+  header:hover {
+    opacity: 0.95; /* Update the opacity value to your desired level */
+  }
+  
+  header img {
+    width: 130px;
+    height: 130px;
+    border-radius: 80%;
+    margin-right: 530px;
+    margin-left: 50px;
+  }
+  
+  /* Navigation links styles */
+  header a {
+    font-size: larger;
+    font-family: Roboto, Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: #1C1C1E;
+    margin-right: 70px;
+    font-weight: bold;
+  }
+  
+  /* Navigation links hover styles */
+  header a:hover {
+    color: #fff7f7; /* Change to desired hover color */
+  }
+  
